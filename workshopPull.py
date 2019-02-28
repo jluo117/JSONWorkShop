@@ -16,8 +16,8 @@ def sendMsg(msg):
 	auth_token = nill
 	client = Client(account_sid, auth_token)
 	client.api.account.messages.create(
-        to="+14158109857",
-        from_="+15108228362",
+        to="nil",
+        from_="nil",
         body=msg,
         )
 myIndex = random.randint(0, 25)
