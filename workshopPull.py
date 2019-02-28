@@ -12,8 +12,8 @@ def part1():
 	print("Check in at " + myJson['Check in'])
 #part 2
 def sendMsg(msg):
-	account_sid = "ACe704104c6f665965aeb765eea2a1502a"
-	auth_token = "2aa7630860a97a3fb9de4ab53a94abc4"
+	account_sid = nill
+	auth_token = nill
 	client = Client(account_sid, auth_token)
 	client.api.account.messages.create(
         to="+14158109857",
